@@ -17,7 +17,7 @@ The input may look like this:
 </text>
 ```
 
-When editing the text in Inkscape, the <tspan> tag with class TextPosition is removed and the coordinate of the text is as such modified to (0.43503895, -0.17538777). To avoid this we need to add the coordinate of the <tspan> tag to the coordinate in the <text> tag and remove the <tspan> tag, resulting in:
+When editing the text in Inkscape, the <tspan> tag with class TextPosition is removed and the coordinate of the text is as such modified to (0.43503895, -0.17538777). To avoid this we need to add the coordinate of the `<tspan>` tag to the coordinate in the `<text>` tag and remove the `<tspan>` tag, resulting in:
 
 ```xml
 <text class="SVGTextShape" id="text1811" x="131.71007895" y="70.47922223">
